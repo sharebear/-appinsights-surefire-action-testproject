@@ -7,6 +7,7 @@ class SimpleTest {
 
     @Test
     fun `should pass quickly`() {
+        fail<Unit>("Breaking!")
     }
 
     @Test
